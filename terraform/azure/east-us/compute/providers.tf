@@ -12,7 +12,7 @@ provider "azurerm" {
     
   }
 }
-module "basic" {
+module "globals" {
   source = "../globals"
 }
 
